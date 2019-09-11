@@ -4,13 +4,25 @@
     <meta charset="utf-8">
     <title>ChairStream</title>
     <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="/__/firebase/6.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#reserved-urls -->
+     https://firebase.google.com/docs/web/setup#config-web-app -->
 
-<!-- Initialize Firebase -->
-<script src="/__/firebase/init.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyApQxGIJwcFEJ9pR2_LHm5RBfHAfgd41Ao",
+    authDomain: "t-001-2019.firebaseapp.com",
+    databaseURL: "https://t-001-2019.firebaseio.com",
+    projectId: "t-001-2019",
+    storageBucket: "t-001-2019.appspot.com",
+    messagingSenderId: "172227310163",
+    appId: "1:172227310163:web:91532f0509194a1b94cca6"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </head>
   <h1>Chair</h1>
   <p>You could ask anything by pressing the message box below.
